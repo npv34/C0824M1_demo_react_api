@@ -4,6 +4,8 @@ import StudentService from "../../../services/student.service";
 import {toast} from "react-toastify";
 import {Link} from "react-router";
 import Form from 'react-bootstrap/Form';
+import {useDispatch, useSelector} from "react-redux";
+import {increment} from "../../../redux/features/counterSlice";
 
 
 function StudentList() {
@@ -14,7 +16,8 @@ function StudentList() {
     const [defaultTotalStudentOnePage, setDefaultTotalStudentOnePage] = useState(3)
     const [paginate, setPaginate] = useState([])
     const [totalListStudent, setTotalListStudent] = useState([])
-
+    const counter = useSelector(state => state.counter);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         // componentDidMount() vs componentDidUpdate() theo state reload, students(1 lan)
@@ -72,6 +75,10 @@ function StudentList() {
     }
 
 
+    const handleIncrementCounter = () => {
+        dispatch(increment())
+    }
+
     return (
         <>
             <Card>
@@ -81,6 +88,7 @@ function StudentList() {
                         <Button variant="primary">Create New Student</Button>
                     </Link>
                     <Form.Control type="text" onInput={(e) => handleSearchStudent(e)} name={"search"} placeholder="Enter Name" />
+                    <Button variant="primary" onClick={handleIncrementCounter}>Increment counter</Button>
                 </Card.Header>
                 <Card.Body>
                     <Table striped>
