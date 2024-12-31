@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useDispatch, useSelector} from "react-redux";
 import {Button} from "react-bootstrap";
-import {logout} from "../../redux/features/authSlice";
+import {logout} from "../../../redux/features/authSlice";
 import {useNavigate} from "react-router";
 
 function HeaderBar() {
