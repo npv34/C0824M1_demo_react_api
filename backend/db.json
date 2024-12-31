@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "id": "f1f44fa7-7a50-e771-bd8d-eb6b715b93a5",
+      "id": "1",
       "name": "rikyvij@mailinator.com",
       "email": "xubom@mailinator.com",
       "age": 55,
@@ -9,12 +9,72 @@
       "groupId": "1"
     },
     {
-      "id": "f22af655-3922-7e83-43e6-3edfc00618fb",
-      "name": "dsadsd",
-      "email": "dosisal@mailinator.com",
-      "age": 37,
+      "id": "2",
+      "name": "Luan",
+      "email": "luan@mailinator.com",
+      "age": 20,
       "phone": "+1 (551) 798-7019",
+      "groupId": "1",
+      "group": {
+        "id": 1,
+        "name": "C0824M1"
+      }
+    },
+    {
+      "id": "f7bf0b9d-9e7a-a64a-7f1b-c5b08d5c8375",
+      "name": "refexif@mailinator.com",
+      "email": "pofinaju@mailinator.com",
+      "age": 84,
+      "phone": "+1 (463) 407-4836",
+      "groupId": "1",
+      "group": {
+        "id": 2,
+        "name": "C1024M1"
+      }
+    },
+    {
+      "id": "db0211fd-ef7e-1f28-1468-4a28997d9f17",
+      "name": "kinyci@mailinator.com",
+      "email": "wycovabak@mailinator.com",
+      "age": 81,
+      "phone": "+1 (981) 235-9932",
       "groupId": "1"
+    },
+    {
+      "id": "c8e80f3b-cff6-bf1f-ef74-c2502fff61a3",
+      "name": "naho@mailinator.com",
+      "email": "vasymucir@mailinator.com",
+      "age": 76,
+      "phone": "+1 (984) 645-1451",
+      "groupId": "2"
+    },
+    {
+      "id": "be4fbab0-209a-b04e-8d78-8ce6e5825ebd",
+      "name": "gepoqydam@mailinator.com",
+      "email": "xawak@mailinator.com",
+      "age": 52,
+      "phone": "+1 (666) 263-4641",
+      "groupId": "2"
+    },
+    {
+      "id": "8f221fbe-6aee-c30c-5d02-0a93b4fcec55",
+      "name": "virifyp@mailinator.com",
+      "email": "quzyty@mailinator.com",
+      "age": 88,
+      "phone": "+1 (182) 438-2384",
+      "groupId": "1"
+    },
+    {
+      "id": "72de5254-985a-b65f-8eb3-521a2405b8b9",
+      "name": "lufo@mailinator.com",
+      "email": "kibaducodi@mailinator.com",
+      "age": 88,
+      "phone": "+1 (114) 337-7928",
+      "groupId": "2",
+      "group": {
+        "id": 1,
+        "name": "C0824M1"
+      }
     }
   ],
   "groups": [
@@ -25,6 +85,56 @@
     {
       "id": 2,
       "name": "C1024M1"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 10,
+      "description": "Product 1",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 200,
+      "quantity": 5,
+      "description": "Product 2",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "price": 300,
+      "quantity": 20,
+      "description": "Product 3",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "price": 400,
+      "quantity": 15,
+      "description": "Product 4",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
+    },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "price": 500,
+      "quantity": 25,
+      "description": "Product 5",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "price": 600,
+      "quantity": 10,
+      "description": "Product 6",
+      "image_url": "https://images.asics.com/is/image/asics/1191A328_104_SR_RT_GLB-1?$thumb$"
     }
   ]
 }
